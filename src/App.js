@@ -1,20 +1,26 @@
 import logo from './media/logo.png'
 import './App.css';
+import Banner from './components/Banner';
 
 
 
 function App() {
   return (
     <>
+
       <div id="menubar">
         <div id="logo">
-          <img id="logoimage" src={logo} alt="Tiny houses logo"></img>
+          <img id="logo-image" src={logo} alt="Tiny houses logo"></img>
         </div>
       </div >
-      <div id='imagecontainer'>
 
+      <div id='image-container'>
       </div>
-    </>
+
+      <Banner>
+        
+      </Banner>
+      </>
   );
 }
 
