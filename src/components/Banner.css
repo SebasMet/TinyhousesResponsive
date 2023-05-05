@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+.banner {
+    display: flex;
+    height: 40vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px 50px;
+    overflow: hidden
+}
+
+.text-section {
+    background-color: #b4fac7;
+    width: 50%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+p {
+    line-height: 1.3rem;
+    margin: 4rem;
+    margin-top: 2rem;
+}
+
+.image-section {
+    background-color: blue;
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+
+
+}
+
+#image {
+    width: 100%;
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        height: 70vh;
+        width: 80%;
+    }
+
+    .image-section {
+        height: 35vh;
+        width: 100%;
+
+    }
+
+    .text-section {
+        height: 35vh;
+        width: 100%;
+    }
+
+    #image {
+        height: 100%;
+        object-fit: cover;
+    }
+}
